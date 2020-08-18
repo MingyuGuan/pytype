@@ -54,6 +54,24 @@ filegroup(
     pytd/builtins/3/builtins.pytd
     pytd/builtins/3/mypy_extensions.pytd
     pytd/builtins/3/numpy/__init__.pytd
+    pytd/builtins/3/numpy/random.pytd
+    pytd/builtins/3/numpy/fft.pytd
+    pytd/builtins/3/cupy/__init__.pytd
+    pytd/builtins/3/cupy/random.pytd
+    pytd/builtins/3/cupy/fft.pytd
+    pytd/builtins/3/pandas/__init__.pytd
+    pytd/builtins/3/pandas/testing.pytd
+    pytd/builtins/3/pandas/core/__init__.pytd
+    pytd/builtins/3/pandas/core/frame.pytd
+    pytd/builtins/3/pandas/core/indexing.pytd
+    pytd/builtins/3/pandas/core/series.pytd
+    pytd/builtins/3/pandas/core/strings.pytd
+    pytd/builtins/3/pandas/core/indexes/__init__.pytd
+    pytd/builtins/3/pandas/core/indexes/base.pytd
+    pytd/builtins/3/pandas/core/indexes/frozen.pytd
+    pytd/builtins/3/pandas/core/indexes/multi.pytd
+    pytd/builtins/3/pandas/core/groupby/__init__.pytd
+    pytd/builtins/3/pandas/core/groupby/generic.pytd
     pytd/builtins/3/protocols.pytd
     pytd/builtins/3/typing.pytd
     pytd/builtins/3/typing_extensions.pytd

@@ -1,0 +1,5 @@
+from typing import Iterable, List, Optional, Sequence, Tuple, TypeVar, Union, overload
+
+from cupy import _DType, _Float, _FloatObj, _Int, _IntObj, _ShapeType, float64, int64, ndarray
+
+def randn(*args) -> ndarray[float64]: ...
