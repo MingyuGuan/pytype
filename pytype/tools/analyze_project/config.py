@@ -51,7 +51,7 @@ ITEMS = {
         "Run N jobs in parallel. When 'auto' is used, this will be equivalent "
         'to the number of CPUs on the host system.'),
     'output': Item(
-        '.pytype', '.pytype', None, 'All pytype output goes here.'),
+        'distill_output', 'distill_output', None, 'All pytype output goes here.'),
     'pythonpath': Item(
         '', '.', None,
         'Paths to source code directories, separated by %r.' % os.pathsep),
