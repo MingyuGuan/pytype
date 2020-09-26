@@ -36,9 +36,9 @@ from pytype.tools.analyze_project import parse_args
 from pytype.tools.analyze_project import pytype_runner
 
 
-def main():
+def main(args):
   parser = parse_args.make_parser()
-  args = parser.parse_args(sys.argv[1:])
+  args = parser.parse_args(args)
 
   if args.version:
     print(io.get_pytype_version())
