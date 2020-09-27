@@ -59,6 +59,9 @@ filegroup(
     pytd/builtins/3/cupy/__init__.pytd
     pytd/builtins/3/cupy/random.pytd
     pytd/builtins/3/cupy/fft.pytd
+    pytd/builtins/3/scipy/__init__.pytd
+    pytd/builtins/3/scipy/io.pytd
+    pytd/builtins/3/scipy/sparse.pytd
     pytd/builtins/3/pandas/__init__.pytd
     pytd/builtins/3/pandas/testing.pytd
     pytd/builtins/3/pandas/core/__init__.pytd

@@ -1,0 +1,4 @@
+from scipy import _DType
+from scipy.sparse import coo_matrix
+
+def mmread(source) -> coo_matrix: ...

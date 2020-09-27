@@ -1,0 +1,37 @@
+from typing import (
+    Any,
+    Callable,
+    Dict,
+    Generic,
+    Iterator,
+    IO,
+    List,
+    Optional,
+    Sequence,
+    Tuple,
+    Type,
+    TypeVar,
+    Union,
+    overload,
+    Iterable,
+    Sized
+)
+
+from scipy import _DType
+import numpy as np
+
+# TODO: inherit from compressed._cs_matrix
+class csr_matrix():
+    @property
+    def shape(self) -> Tuple[int, ...]: ...
+    @property
+    def indices(self) -> np.ndarray[np.int32]: ...
+    @property
+    def indptr(self) -> np.ndarray[np.int32]: ...
+
+    def sum(self, axis=..., dtype: Type[_DType]=..., out=...) -> np.ndarray[_DType]:...
+
+class coo_matrix():
+    def __init__(self, arg1, shape=..., dtype: Type[_DType] =..., copy=...) -> None: ...
+
+    def tocsr(self, copy=...) -> csr_matrix: ...
